@@ -9,4 +9,5 @@ def line(array)
       say += ${index + 1}.#{name}
   end 
   puts say 
+  end
 end
