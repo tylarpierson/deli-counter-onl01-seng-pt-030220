@@ -8,5 +8,5 @@ def line(array)
     array.each_with_index do |name, index|
       say += #{index + 1}.#{name}
   end 
-puts say 
+  puts say 
 end
