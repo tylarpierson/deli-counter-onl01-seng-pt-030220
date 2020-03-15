@@ -18,7 +18,7 @@ def take_a_number(array, name)
 end
 
 def now_serving(array, name)
-  array.pop(name)
+  array.unshift(name)
   if array.count == 0 
     puts "There is noby waiting to be served!"
   else
