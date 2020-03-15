@@ -11,3 +11,5 @@ def line(array)
   puts say 
   end
 end
+
+def take_a_number()
